@@ -15,3 +15,20 @@ what is the puprose of pull request?
 review code before intergrating, keeps a record, maintain a high code quality,assign team members
 git branch - creates  new branch 
 Git checkout 'branch name' - to get onto a new branch 
+merge conflicts - occurs when git cannot reconcile diffrence between two commits 
+
+
+What is rebasing?
+git rebase -
+git push --force
+git push --force-with-lease
+What is force pushing?  
+
+What is squash commits?
+git rebase -i HEAD~with the last x ammount of commits
+to squash commit run the command git rebase -i HEAD~ to open the vim text editor and using the s command which  stands for squash replace the every other line of code except the one you one to commit with the start being p for pick the rest that is being squashed put the command s in the start of the line.
+
+Here is an example:
+photo link
+
+What is .gitignore file?
