@@ -7,3 +7,11 @@ Git status - to get status of git
 Git commit -m "" - Push to rremote repo wih message
 Git Push - To push the local repo from staging area to the remote repo
 Git Pull - To pull the remote repo into my local repo
+
+what is the purpose of committing?
+what is branching?
+master,realease,developer branches...
+what is the puprose of pull request?
+review code before intergrating, keeps a record, maintain a high code quality,assign team members
+git branch - creates  new branch 
+Git checkout 'branch name' - to get onto a new branch 
