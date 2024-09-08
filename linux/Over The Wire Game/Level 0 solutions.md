@@ -1,5 +1,3 @@
-To make it look more presentable and easy to follow, you can apply formatting techniques such as clearer headers, spacing, and possibly some emphasis (e.g., bolding, italics). Here's a version with a cleaner, more polished presentation:
-
 ---
 
 # 🏁 Bandit Level 0: Connecting with SSH
