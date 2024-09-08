@@ -140,3 +140,11 @@ Get input from users.
 Example:
 
 read -p "Enter your name: " name echo "Hello, $name!"
+
+Running scripts from anywhere by adding our scripts one of the directories from our path enviroment varibale, we can conivnelty run it from anywhere regarldess where we are in the termoinal:
+
+here are the commands:
+
+echo $PATH - to list all enviroment variables accessible
+sudo mv (file which contains our script) file path/the end word the command you want to call it 
+sudo chmod +x file path - to give it excutble permissions 
