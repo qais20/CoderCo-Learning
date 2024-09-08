@@ -1,0 +1,84 @@
+# 🏁 Bandit Level 8 → Level 9: Finding the Unique Line
+
+## 🎯 Level Objective
+The password for **Bandit Level 9** is stored in `data.txt` and is the only line of text that appears exactly once.
+
+---
+
+## 🔧 Commands You’ll Need
+
+- **`sort`**: Sort lines of text files.
+- **`uniq`**: Report or omit repeated lines.
+
+### 📚 Helpful Reading Material
+
+- [Piping and Redirection](https://www.gnu.org/software/coreutils/manual/html_node/Pipe.html)
+
+---
+
+## 🧑‍💻 Step-by-Step Solution
+
+### 1️⃣ Step 1: List the Files
+
+Ensure you’re in the correct directory and `data.txt` is present:
+
+```bash
+ls
+```
+
+### 2️⃣ Step 2: Display the Contents of the File
+
+To check the content of `data.txt` and prepare for sorting:
+
+```bash
+cat data.txt
+```
+
+### 3️⃣ Step 3: Find the Unique Line
+
+Use `sort` and `uniq` to identify the line that appears only once:
+
+```bash
+cat data.txt | sort | uniq -u
+```
+
+- `cat data.txt` outputs the file's content.
+- `sort` arranges the lines, making it easier for `uniq` to find duplicates.
+- `uniq -u` filters out lines that occur more than once, showing only the unique line.
+
+---
+
+## ✅ Solution
+
+To find the unique line in `data.txt`:
+
+1. **Verify File Presence**:
+
+   ```bash
+   ls
+   ```
+
+   Ensure `data.txt` is listed.
+
+2. **Find the Unique Line**:
+
+   ```bash
+   cat data.txt | sort | uniq -u
+   ```
+
+   The output will be:
+
+   ```
+   4CKMh1JI91bUIZZPXDqGanal4xvAg0JM
+   ```
+
+   This is the password for **Bandit Level 9**.
+
+---
+
+## 🔍 Thought Process Behind the Solution
+
+1. **Sort the Data**: By sorting the file, all identical lines are placed next to each other.
+2. **Filter Unique Lines**: Use `uniq -u` to extract lines that appear exactly once.
+
+---
