@@ -158,3 +158,7 @@ parameters - ...
 
 exampe of arthimetic script: 
 photo link
+
+arthmetic exapnsion with paarmeters:
+
+photo link.. dependentent on user entry
