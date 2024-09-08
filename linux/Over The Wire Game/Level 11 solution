@@ -1,0 +1,48 @@
+What is ROT13?
+ROT13 is a simple substitution cipher where each letter of the alphabet is shifted by 13 positions. So, 'A' becomes 'N', 'B' becomes 'O', 'C' becomes 'P', and so on. After 13 positions, the alphabet loops back. This applies both to uppercase and lowercase letters.
+
+The lowercase alphabet (a-z) rotated by 13 becomes:
+css
+Copy code
+a b c d e f g h i j k l m n o p q r s t u v w x y z
+n o p q r s t u v w x y z a b c d e f g h i j k l m
+The uppercase alphabet (A-Z) rotated by 13 becomes:
+mathematica
+Copy code
+A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+N O P Q R S T U V W X Y Z A B C D E F G H I J K L M
+tr Explanation
+Now, let's focus on how the tr command works with these two sets of letters.
+
+1. A-Za-z: The Set of All Uppercase and Lowercase Letters
+In tr, we define character sets that we want to translate or replace. The set A-Za-z represents all uppercase (A-Z) and lowercase (a-z) letters.
+
+A-Z: This is the range of uppercase letters from A to Z.
+a-z: This is the range of lowercase letters from a to z.
+So, A-Za-z means "all uppercase and lowercase letters".
+
+2. N-ZA-Mn-za-m: The Corresponding ROT13 Shifted Letters
+This part represents the letters shifted by 13 positions. Let's break it down:
+
+N-Z: This represents the uppercase letters N to Z.
+
+A-M: This represents the uppercase letters A to M.
+
+So, combining them as N-ZA-M effectively maps the entire uppercase alphabet shifted by 13 positions:
+A maps to N, B maps to O, ..., M maps to Z.
+N maps to A, O maps to B, ..., Z maps to M.
+n-z: This represents the lowercase letters n to z.
+
+a-m: This represents the lowercase letters a to m.
+
+So, combining them as n-za-m shifts the lowercase alphabet by 13 positions:
+a maps to n, b maps to o, ..., m maps to z.
+n maps to a, o maps to b, ..., z maps to m.
+
+bandit11@bandit:~$ ls
+data.txt
+bandit11@bandit:~$ cat data.txt
+Gur cnffjbeq vf 7k16JArUVv5LxVuJfsSVdbbtaHGlw9D4
+bandit11@bandit:~$ cat data.txt | tr 'A-Za-z' 'N-ZA-Mn-za-m'
+The password is 7x16WNeHIi5YkIhWsfFIqoognUTyj9Q4
+bandit11@bandit:~$
