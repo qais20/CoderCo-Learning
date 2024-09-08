@@ -1,5 +1,3 @@
----
-
 # 🏁 Bandit Level 0: Connecting with SSH
 
 ## 🎯 Level Objective
@@ -12,7 +10,7 @@ Your goal for **Bandit Level 0** is to log into the game server using **SSH** wi
 
 Once you’re connected, you’ll be able to proceed to the next level.
 
----
+***
 
 ## 🔧 Commands Required
 
@@ -22,7 +20,7 @@ Once you’re connected, you’ll be able to proceed to the next level.
 - [SSH - Secure Shell on Wikipedia](https://en.wikipedia.org/wiki/Secure_Shell)
 - [How to use SSH on wikiHow](https://www.wikihow.com/Use-SSH)
 
----
+***
 
 ## 🧑‍💻 Step-by-Step Solution
 
@@ -49,7 +47,7 @@ ssh bandit0@bandit.labs.overthewire.org -p 2220
 ### 3️⃣ Step 3: Enter the Password
 Once you execute the command, you will be prompted to enter a password. The password for this level is `bandit0`. Simply type it in when asked.
 
----
+***
 
 ## ✅ Solution
 
@@ -61,7 +59,7 @@ ssh bandit0@bandit.labs.overthewire.org -p 2220
 
 After entering the password `bandit0`, you will successfully log into the server and be ready to take on **Level 1**.
 
----
+***
 
 ## 🔍 Thought Process Behind the Solution
 
@@ -69,6 +67,11 @@ After entering the password `bandit0`, you will successfully log into the server
 2. **Understand the syntax**: The SSH command requires the username, hostname, and port to connect to the specified server.
 3. **Complete the login**: After entering the provided credentials, you gain access to the server, which is the goal for Level 0.
 
----
+***
 
 By breaking down the steps like this, it should now be much more readable and structured for anyone going through the solution. This format uses headers, icons, and sections for clarity, making it visually easier to navigate.
+```
+
+### Key Changes:
+- Replaced `---` with `***` for horizontal lines.
+- This should resolve the YAML error and display properly as Markdown on GitHub.
