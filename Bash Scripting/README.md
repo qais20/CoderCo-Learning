@@ -148,3 +148,10 @@ here are the commands:
 echo $PATH - to list all enviroment variables accessible
 sudo mv (file which contains our script) file path/the end word the command you want to call it 
 sudo chmod +x file path - to give it excutble permissions 
+here is an example:
+photo link
+
+
+variables - what is it in bash scripting?
+
+parameters - ... 
