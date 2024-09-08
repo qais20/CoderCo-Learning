@@ -71,7 +71,3 @@ After entering the password `bandit0`, you will successfully log into the server
 
 By breaking down the steps like this, it should now be much more readable and structured for anyone going through the solution. This format uses headers, icons, and sections for clarity, making it visually easier to navigate.
 ```
-
-### Key Changes:
-- Replaced `---` with `***` for horizontal lines.
-- This should resolve the YAML error and display properly as Markdown on GitHub.
