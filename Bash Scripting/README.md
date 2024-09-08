@@ -155,3 +155,6 @@ photo link
 variables - what is it in bash scripting?
 
 parameters - ... 
+
+exampe of arthimetic script: 
+photo link
