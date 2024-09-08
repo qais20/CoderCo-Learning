@@ -1,18 +1,71 @@
-# Level 0 
-Bandit Level 0
-Level Goal
-The goal of this level is for you to log into the game using SSH. The host to which you need to connect is bandit.labs.overthewire.org, on port 2220. The username is bandit0 and the password is bandit0. Once logged in, go to the Level 1 page to find out how to beat Level 1.
+---
 
-Commands you may need to solve this level
-ssh
+# Bandit Level 0: Connecting with SSH
 
-Helpful Reading Material
-Secure Shell (SSH) on Wikipedia
-How to use SSH on wikiHow
-The goal of this level is for you to log into the game using SSH. The host to which you need to connect is bandit.labs.overthewire.org, on port 2220. The username is bandit0 and the password is bandit0. Once logged in, go to the Level 1 page to find out how to beat Level 1.
+## Level Objective
+The goal for **Level 0** is to log into the Bandit game server via SSH using the following details:
+
+- **Host**: `bandit.labs.overthewire.org`
+- **Port**: `2220`
+- **Username**: `bandit0`
+- **Password**: `bandit0`
+
+Once successfully logged in, you can move on to solving the next level.
+
+---
+
+## Commands Required
+
+- **`ssh`**: Secure Shell, a protocol to securely connect to remote systems.
+
+### Resources
+- [SSH - Secure Shell on Wikipedia](https://en.wikipedia.org/wiki/Secure_Shell)
+- [How to use SSH](https://www.wikihow.com/Use-SSH)
+
+---
+
+## Step-by-Step Solution
+
+### Step 1: Understanding the `ssh` Command
+The **`ssh`** command is used to securely log into remote machines. The general syntax looks like this:
+
+```bash
+ssh username@hostname -p port
+```
+
+### Step 2: Applying the Bandit Level Details
+For Bandit Level 0, we need to use:
+
+- **Username**: `bandit0`
+- **Host**: `bandit.labs.overthewire.org`
+- **Port**: `2220`
+
+This leads to the following command:
+
+```bash
+ssh bandit0@bandit.labs.overthewire.org -p 2220
+```
+
+### Step 3: Entering the Password
+Once the command is executed, you will be prompted to enter the password. In this case, the password is provided as `bandit0`.
+
+---
 
 ## Solution
 
-```
+Run the following command in your terminal:
+
+```bash
 ssh bandit0@bandit.labs.overthewire.org -p 2220
 ```
+
+After entering the password `bandit0` when prompted, you should successfully log into the server and be ready to tackle **Level 1**.
+
+---
+
+## Thought Process Behind the Solution
+
+1. **Identifying the connection method**: Since the goal is to connect to a remote system, SSH is the ideal tool for this task.
+2. **Understanding the SSH syntax**: Use the provided hostname, username, and non-standard port to establish a connection.
+3. **Logging in**: After entering the password, the connection will be established, and the terminal session will allow you to interact with the server for the next level.
+
