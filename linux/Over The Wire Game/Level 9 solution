@@ -1,0 +1,23 @@
+bandit9@bandit:~$ ls
+data.txt
+bandit9@bandit:~$ strings -n 7 data.txt
+\a!;========== the
+         M),\}=
+========== passwordf
+#1^U\IDj
+2O|%:c{
+========== isc
+v"Q_$^-2
+{6':-Ay(
+H_9g,m`O
+#+Nh"xJCe
+-,OPr?7
+nr`JdxpS
+(9yu;tK
+J!k+S&vo
+aZ      LTD}
+========== FGUW5ilLVJrxX9kMYMmlN4MgbpfMiqey
+/[ $SyBr<
+!&=u&4$
+~'F%us1
+To49#8H
