@@ -208,3 +208,19 @@ echo "The square is $square"
 
 ## 📧 Questions or Feedback?
 If you have any questions or need help, feel free to reach out via [email](mailto:qaisbaraki81@gmail.com). Happy scripting!
+
+
+if statments allow decison making logic, based on sepcific conditons control flow of bash script,enable dynamic behaviour in our scripts 
+#!/bin/bash
+
+if condition 
+then 
+    # Code block to be excuted (To make indentation press cltr+])
+fi
+
+eq = equals 
+ne = not equal to 
+lt = less than
+gt = greater than 
+le = less than or equal to
+ge = greater or equal to
